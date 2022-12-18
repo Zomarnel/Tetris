@@ -26,4 +26,3 @@ class DrawService:
         next_rectangle = pygame.Rect(91, 425, 178, 256)
 
         screen.fill(DrawService.BLACK, next_rectangle)
-

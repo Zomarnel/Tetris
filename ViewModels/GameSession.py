@@ -4,9 +4,8 @@ import pygame
 class GameSession:
 
     def __init__(self):
-        self.SCREEN_SIZE = (800, 800)
-        self.BACKGROUND_COLOR = (255, 0, 0)
+        # The Surface is expressed in Tiles Objects
+        self.PlayGround = []
+        self.CurrentShape = None
 
-        pygame.init()
 
-        self.SCREEN = pygame.display.set_mode
